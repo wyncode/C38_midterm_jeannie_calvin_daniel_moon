@@ -12,7 +12,7 @@
   box-shadow: 3px 3px 3px black;
   margin-top: 1rem;
   display: flex;
-  background-color: black;
+  margin-bottom: 0.3rem;
 }
 #home {
   margin-left: 5rem;
@@ -34,6 +34,7 @@
 #cards {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 6rem;
 }
 #search-bar {
   width: 40%;
@@ -44,5 +45,29 @@
 }
 
 #carousel {
+}
+
+#search-left {
+  width: 19.5rem;
+  height: 19rem;
+  overflow: auto;
+}
+
+#search-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+#search-right {
+  width: 50%;
+}
+
+#search-page-card-title {
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+  font-size: 3.5rem;
+  border-top: 1px solid black;
 }
 /* END DEMO */
