@@ -5,6 +5,7 @@ import NavigationBar from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Resources from './pages/Resources';
 import JobSearch from './components/JobSearch';
 
 import './App.css';
@@ -27,6 +28,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/searchforjobs" component={JobSearch} />
+          <Route exact path="/resources" component={Resources} />
         </Switch>
       </BrowserRouter>
     </AppContextProvider>
