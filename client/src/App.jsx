@@ -1,8 +1,11 @@
 import React from 'react';
 import { AppContextProvider } from './context/AppContext';
-import ContextDemo from './components/ContextDemo';
+// import ContextDemo from './components/ContextDemo';
 import NavigationBar from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import JobSearch from './components/JobSearch';
 
 import './App.css';
 
@@ -18,13 +21,14 @@ const App = () => {
   // useEffect(fetchDemoData, []);
 
   return (
-    
     <AppContextProvider>
-      <NavigationBar/>
-      <div id="demo">
-        <h3>Hello from client/src/App.js</h3>
-        <ContextDemo />
-      </div>
+      <BrowserRouter>
+        <NavigationBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/searchforjobs" component={JobSearch} />
+        </Switch>
+      </BrowserRouter>
     </AppContextProvider>
   );
 };
