@@ -11,9 +11,9 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.0.5",
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.4",
-    "dotenv": "^8.2.0"
+    "prettier": "^2.0.5"
   },
   "scripts": {
     "start": "node server.js",
