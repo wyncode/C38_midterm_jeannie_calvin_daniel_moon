@@ -1,11 +1,7 @@
-import React, { useEffect } from 'react';
-
+import React from 'react';
+import HomeCarousel from '../components/Carousel';
 function Home() {
-  useEffect(() => {
-    console.log('mounted');
-  }, []);
-
-  return <div style={{ marginTop: '10rem' }}>Home Page</div>;
+  return <HomeCarousel />;
 }
 
 export default Home;

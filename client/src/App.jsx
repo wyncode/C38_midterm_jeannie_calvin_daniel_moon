@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import JobSearch from './components/JobSearch';
+import Resources from './components/Resources';
 
 import './App.css';
 
