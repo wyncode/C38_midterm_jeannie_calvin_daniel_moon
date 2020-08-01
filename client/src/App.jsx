@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import JobSearch from './components/JobSearch';
+import Resources from './components/Resources';
 
 import './App.css';
 
@@ -27,6 +28,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/searchforjobs" component={JobSearch} />
+          <Route exact path="/resources" component={Resources} />
         </Switch>
       </BrowserRouter>
     </AppContextProvider>
