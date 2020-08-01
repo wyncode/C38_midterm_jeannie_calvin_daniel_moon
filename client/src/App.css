@@ -13,10 +13,5 @@
   height: 50%;
   border: none;
 }
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 /* END DEMO */
