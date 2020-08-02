@@ -7,9 +7,11 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import JobSearch from './components/JobSearch';
+import Footer from './components/Footer';
 // import Resources from './components/Resources';
 
 import './App.css';
+import './assets/styles/resources.css';
 
 const App = () => {
   // // const [serverMessage, setServerMessage] = useState('');
@@ -31,6 +33,7 @@ const App = () => {
           <Route exact path="/searchforjobs" component={JobSearch} />
           <Route exact path="/resources" component={Resources} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </AppContextProvider>
   );

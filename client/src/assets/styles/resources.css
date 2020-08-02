@@ -1,3 +1,10 @@
 .cards {
-  padding: 0 5rem;
+  padding: 2rem 10rem;
+}
+.carddeck {
+  padding: 2rem 10rem;
+}
+
+.resouecebg {
+  width: 100%;
 }

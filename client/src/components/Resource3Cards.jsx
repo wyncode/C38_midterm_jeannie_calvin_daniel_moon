@@ -1,38 +1,44 @@
 import React from 'react';
 import { CardDeck, Card } from 'react-bootstrap';
-import '../assets/styles/resources.css';
+import cards1 from '../assets/images/cards1.jpg';
+import cards2 from '../assets/images/cards2.jpg';
+import card3T from '../assets/images/card3T.jpg';
 
 function Resource3Cards(props) {
   return (
     <CardDeck className="cards">
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={cards1} />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>U.S Employment Report</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            Did you know that one of the industries that has seen the best job
+            growth in the U.S. is mining? Check out our report , from the end of
+            December 2019 through May 2020, U.S. employment in the mining sector
+            has increased 16 percent.
           </Card.Text>
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={cards2} />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Job Market Report</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            By publishing and comparing month-by-month job growth and pay growth
+            across the U.S. by metro, industry and more, the Job Market Report
+            offers a fresh, forward-looking and more detailed perspective into
+            how the job market and economy are changing.
           </Card.Text>
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={card3T} />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>2020 Tech Industry</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Tech jobs, tech industry, economic impact, tech salary, technology
+            trends, data and analysis by city,tech employment in the U.S.
+            developers – the largest and fasting growing category of tech jobs.
           </Card.Text>
         </Card.Body>
       </Card>
