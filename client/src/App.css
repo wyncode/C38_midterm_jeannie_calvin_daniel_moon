@@ -135,4 +135,10 @@ body {
   font-size: 3.5rem;
   border-top: 1px solid black;
 }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
 /* END DEMO */
