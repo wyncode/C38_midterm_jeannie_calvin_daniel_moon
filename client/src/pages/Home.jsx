@@ -1,23 +1,14 @@
 import React from 'react';
 import HomeCarousel from '../components/Carousel';
-import SmallCardsButton from '../components/SmallCardsButton';
+import HomeCards from '../components/HomeCards';
 import HomePgJumbo from '../components/HomePgJumbo';
 
 function Home() {
   return(
     <div>
     <HomeCarousel />
-    <div id= "cards">
-    <SmallCardsButton />
-    <SmallCardsButton />
-    <SmallCardsButton />
-    <SmallCardsButton />
-    </div>
-    <div id = "homePgJumbo">
+    <HomeCards />
     <HomePgJumbo />
     </div>
-    </div>
   )};
-
-
 export default Home;

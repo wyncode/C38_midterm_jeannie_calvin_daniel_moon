@@ -17,7 +17,7 @@ const ResourceCardDeck = () => {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src= "holder.js/100px160" />
         <Card.Body>
           <Card.Title>Becoming A Developer</Card.Title>
           <Card.Text>
