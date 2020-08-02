@@ -1,4 +1,9 @@
 /* JUST FOR DEMO PURPORSES, REPLACE WITH YOUR OWN CODE */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
 
 #demo {
   width: 100vw;
@@ -36,15 +41,75 @@
   justify-content: space-evenly;
   margin-bottom: 6rem;
 }
+
 #search-bar {
   width: 40%;
-
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 #carousel {
+}
+
+#homepgcards {
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.homejumbo {
+  display: flex;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BKmuD1vxLs-r541LBVVE3QHaDt%26pid%3DApi&f=1);
+  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  color:rgba(223, 223, 223, 0.993);
+  position: relative; 
+}
+
+.homejumbo::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hometext {
+  position: relative;
+  font-size: 1rem;
+  line-height: 0.9;
+  text-align: left;
+}
+
+#homecardtext {
+  display:flex;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.jumbo {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fhr-gazette.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fbigstock-Job-Search-Human-Resources-Rec-256126069.jpg%3Ffit%3D1600%252C743%26ssl%3D1&f=1&nofb=1);
+  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  color: whitesmoke;
+  position: relative; 
+}
+
+.jumbo::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(76, 94, 100, 0.25);
 }
 
 #search-left {
