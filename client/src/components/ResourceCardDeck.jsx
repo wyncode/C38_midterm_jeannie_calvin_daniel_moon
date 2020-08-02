@@ -14,12 +14,9 @@ const ResourceCardDeck = () => {
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src= "holder.js/100px160" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -28,9 +25,6 @@ const ResourceCardDeck = () => {
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
       </Card>
       <Card>
         <Card.Img variant="top" src="holder.js/100px160" />
@@ -43,12 +37,9 @@ const ResourceCardDeck = () => {
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="holder.js/200px160" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -58,9 +49,6 @@ const ResourceCardDeck = () => {
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
       </Card>
     </CardDeck>
   );
