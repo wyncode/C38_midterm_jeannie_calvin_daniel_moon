@@ -5,13 +5,18 @@ const SearchContainerResult = () => {
   return (
     <div>
       <Jumbotron>
-        <h1>Hello, world!</h1>
+        <h1>Job Title</h1>
+        <h3>Job Location</h3>
+        <h4>Company</h4>
         <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          Job Description:This is a simple hero unit, a simple jumbotron-style
+          component for calling extra attention to featured content or
+          information.This is a simple hero unit, a simple jumbotron-style
+          component for calling extra attention to featured content or
+          information.
         </p>
         <p>
-          <Button variant="primary">Learn more</Button>
+          <Button variant="primary">Apply Here</Button>
         </p>
       </Jumbotron>
     </div>
