@@ -10,6 +10,7 @@ function Resources() {
       <Resource3Cards />
       <ResourceImage />
       <ResourceCardDeck />
+    
     </div>
   );
 }
