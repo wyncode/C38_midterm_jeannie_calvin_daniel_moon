@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
-const SmallCardsButton = () => {
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
+const SmallCardsButton = ({apiData}) => {
+  // const [apiData, setApiData] = useState({});
+  // let { id } = useParams();
+  // useEffect(() => {
+  //   console.log('I entered useEffect. Did it work?');
+  //   axios
+  //     .get(`/api/jobs`)
+  //     .then((response) => {
+  //       console.log(response);
+  //       setApiData({jobeOne: response.data[0], jobTwo: response.data[1], jobThree: response.data[2], jobFour: response.data[3]})
+  //       // setApiData(response.data[0]);
+  //     });
+  // }, []);
   return (
     <div id="small-card-button">
       <div>
@@ -12,11 +25,9 @@ const SmallCardsButton = () => {
           }}
         >
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title>{apiData?.title}</Card.Title>
+            <Card.Subtitle>{apiData?.company}</Card.Subtitle>
+            <Card.Text>{apiData?.location}</Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
@@ -24,5 +35,4 @@ const SmallCardsButton = () => {
     </div>
   );
 };
-
 export default SmallCardsButton;
