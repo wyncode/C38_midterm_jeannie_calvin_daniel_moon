@@ -35,4 +35,5 @@ const SmallCardsButton = ({apiData}) => {
     </div>
   );
 };
+
 export default SmallCardsButton;
