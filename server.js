@@ -5,6 +5,7 @@ if (process.env.NODE_ENV !== 'production') {
 const express = require('express');
 const path = require('path');
 const app = express();
+const axios = require('axios')
 
 // JUST FOR DEMO PURPOSES, PUT YOUR ACTUAL API CODE HERE
 app.get('/api/demo', (request, response) => {
@@ -13,6 +14,29 @@ app.get('/api/demo', (request, response) => {
   });
 });
 // END DEMO
+
+// GETS ALL JOBS
+app.get('/api/jobs', async (request, response) => {
+  try {
+    const { data } = await axios.get(`https://jobs.github.com/positions.json`)
+    response.json(data)
+  } catch (error) {
+    console.log(error)
+  }
+})
+
+// GETS JOB BY SEARCH TERM
+app.get('/api/jobs/:search', async (request, response) => {
+  const { search } = request.params
+
+  try {
+    const { data } = await axios.get(`https://jobs.github.com/positions.json?search=${search}`)
+    response.json(data)
+  } catch (error) {
+    console.log(error)
+  }
+  
+})
 
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
