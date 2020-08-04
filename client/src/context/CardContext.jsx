@@ -1,5 +1,7 @@
 import React, { useState, createContext } from 'react';
 export const CardContext = createContext();
+
+
 export const CardProvider = (props) => {
   const [info, setInfo] = useState(null);
   return (
@@ -8,3 +10,4 @@ export const CardProvider = (props) => {
     </CardContext.Provider>
   );
 };
+

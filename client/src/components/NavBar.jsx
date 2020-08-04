@@ -6,6 +6,7 @@ const NavigationBar = () => {
   return (
     <div id="navBar">
       <Nav className="justify-content-end" activeKey="/home">
+        
         <div id="home">
           <Nav.Item>
             <Link id="navtext" to="/">

@@ -8,27 +8,22 @@ import Home from './pages/Home';
 import Resources from './pages/Resources';
 import JobSearch from './components/JobSearch';
 import Footer from './components/Footer';
-// import Resources from './components/Resources';
-
+// import gottech from "./assets/images/gottech.png";
 import './App.css';
 import './assets/styles/resources.css';
 
 const App = () => {
-  // // const [serverMessage, setServerMessage] = useState('');
-
-  // const fetchDemoData = () => {
-  //   fetch('/api/demo')
-  //     .then((response) => response.json())
-  //     .then((data) => setServerMessage(data.message));
-  // };
-
-  // useEffect(fetchDemoData, []);
 
   return (
+   <>
     <AppContextProvider>
       <BrowserRouter>
-        <NavigationBar />
-        <Switch>
+      {/* <a href="#">&#9776; React-Bootstrap
+          <img src={gottech} style={{width:100, marginTop: -7}} />
+          </a> */}
+      
+       <NavigationBar />
+         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/searchforjobs" component={JobSearch} />
           <Route exact path="/resources" component={Resources} />
@@ -36,6 +31,7 @@ const App = () => {
         <Footer />
       </BrowserRouter>
     </AppContextProvider>
+    </>
   );
 };
 

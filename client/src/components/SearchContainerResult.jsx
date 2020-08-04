@@ -17,6 +17,7 @@ const SearchContainerResult = ({ info }) => {
       ) : (
         <div>
           <Jumbotron id="searchJumbo">
+
             <h1>Want to Learn More About a company?</h1>
             <p>
               Click on a card to read an in depth description about the
@@ -31,4 +32,6 @@ const SearchContainerResult = ({ info }) => {
     </>
   );
 };
+
 export default SearchContainerResult;
+
