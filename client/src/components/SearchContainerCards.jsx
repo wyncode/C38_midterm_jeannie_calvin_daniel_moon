@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const SearchContainerCards = ({ title, location, company, url }) => {
   return (
     <div>
-      <Card style={{ width: '18rem' }}>
+      <Card id="searchResultsCards">
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{location}</Card.Subtitle>

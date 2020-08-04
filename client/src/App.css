@@ -1,23 +1,21 @@
-/* JUST FOR DEMO PURPORSES, REPLACE WITH YOUR OWN CODE */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+}
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
+  background-color: #14213d;
+  margin: 0;
+  padding: 0;
 }
 
-#demo {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 #navBar {
   height: 3rem;
-  box-shadow: 3px 3px 3px black;
-  margin-top: 1rem;
   display: flex;
-  margin-bottom: 0.3rem;
+  background-color: #e5e5e5;
+  padding-top: 10px;
 }
 #home {
   margin-left: 5rem;
@@ -29,17 +27,50 @@ body {
   margin-right: 2rem;
   color: white;
 }
+#navtext {
+  color: #14213d;
+  font-weight: bold;
+  margin-right: 30px;
+}
 
 #large-card {
   width: 100%;
   height: 20%;
   border: none;
+  box-shadow: 3px 3px 3px #fca311;
+}
+#searchimage {
+  height: 45rem;
+}
+#searchmaintext {
+  font-size: 4rem;
+  text-shadow: 5px 5px 5px black;
+}
+#searchmaintext2 {
+  font-size: 3.5rem;
+  text-shadow: 5px 5px 5px black;
+}
+#searchmaintext3 {
+  font-size: 1rem;
+  text-shadow: 5px 5px 5px black;
 }
 
 #cards {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 6rem;
+}
+#cardsshadow {
+  box-shadow: 4px 4px 4px #fca311;
+  background-color: #e5e5e5;
+  color: #14213d;
+}
+#jobsearchbuttons {
+  background-color: #fca311;
+  font-weight: bold;
+  height: auto;
+  color: #14213d;
+  border: #fca311;
 }
 
 #search-bar {
@@ -49,33 +80,33 @@ body {
   margin-bottom: 3rem;
 }
 
-#carousel {
-}
-
 #homepgcards {
-  display:flex;
-  justify-content: space-evenly;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
 }
 
+#homepagecards {
+  box-shadow: 5px 5px 5px #fca311;
+}
 .homejumbo {
   display: flex;
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BKmuD1vxLs-r541LBVVE3QHaDt%26pid%3DApi&f=1);
+  background-image: url();
   background-size: cover;
   -webkit-background-size: 100% 100%;
-  color:rgba(223, 223, 223, 0.993);
-  position: relative; 
+  color: rgba(223, 223, 223, 0.993);
+  position: relative;
 }
 
 .homejumbo::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.25);
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .hometext {
@@ -86,7 +117,7 @@ body {
 }
 
 #homecardtext {
-  display:flex;
+  display: flex;
   text-align: left;
   justify-content: space-evenly;
 }
@@ -95,15 +126,15 @@ body {
   display: flex;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fhr-gazette.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fbigstock-Job-Search-Human-Resources-Rec-256126069.jpg%3Ffit%3D1600%252C743%26ssl%3D1&f=1&nofb=1);
+  background-image: url(https://unsplash.com/photos/8OyKWQgBsKQ);
   background-size: cover;
   -webkit-background-size: 100% 100%;
   color: whitesmoke;
-  position: relative; 
+  position: relative;
 }
 
 .jumbo::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   right: 0px;
@@ -113,9 +144,14 @@ body {
 }
 
 #search-left {
-  width: 19.5rem;
+  width: 60%;
   height: 19rem;
   overflow: auto;
+  background-color: #fca311;
+}
+
+#searchResultsCards {
+  width: 100%;
 }
 
 #search-containers {
@@ -130,15 +166,28 @@ body {
 }
 
 #search-page-card-title {
-  margin-left: 3rem;
   margin-bottom: 4rem;
   font-size: 3.5rem;
-  border-top: 1px solid black;
+  color: #e5e5e5;
+  text-shadow: 7px 7px 7px black;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 .footer {
-  background-color: black;
+  background-color: #000000;
   display: flex;
   justify-content: center;
 }
+#footertext {
+  color: #e5e5e5;
+  font-weight: bold;
+}
+
+#resourcecardshadow {
+  box-shadow: 5px 5px 5px #fca311;
+}
+
 /* END DEMO */
+
+/* button */

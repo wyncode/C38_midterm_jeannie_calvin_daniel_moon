@@ -23,10 +23,9 @@ const SearchContainers = ({ results }) => {
         <SearchContainerCards />
         <SearchContainerCards /> */}
       </div>
-
-      <div id="search-right">
+      {/* <div id="search-right">
         <SearchContainerResult />
-      </div>
+      </div> */}
     </div>
   );
 };

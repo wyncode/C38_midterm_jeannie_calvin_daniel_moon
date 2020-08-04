@@ -8,18 +8,24 @@ const NavigationBar = () => {
       <Nav className="justify-content-end" activeKey="/home">
         <div id="home">
           <Nav.Item>
-            <Link to="/">Home</Link>
+            <Link id="navtext" to="/">
+              Home
+            </Link>
           </Nav.Item>
         </div>
 
         <div id="search">
           <Nav.Item>
-            <Link to="/searchforjobs">Search For Jobs</Link>
+            <Link id="navtext" to="/searchforjobs">
+              Search For Jobs
+            </Link>
           </Nav.Item>
         </div>
         <div id="resource">
           <Nav.Item>
-            <Link to="/resources">Resources</Link>
+            <Link id="navtext" to="/resources">
+              Resources
+            </Link>
           </Nav.Item>
         </div>
       </Nav>
