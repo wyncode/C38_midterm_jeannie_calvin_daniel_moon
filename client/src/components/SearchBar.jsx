@@ -19,15 +19,10 @@ const SearchBar = ({ inputSearch, setInputSearch, setResults }) => {
     <div id="search-bar">
       <Form onSubmit={handleSubmit}>
         <InputGroup className="mb-3">
-          <InputGroup.Prepend>
-            <InputGroup.Text id="inputGroup-sizing-default">
-              Search
-            </InputGroup.Text>
-          </InputGroup.Prepend>
+          <InputGroup.Prepend></InputGroup.Prepend>
           <FormControl
             onChange={handleChange}
-            aria-label="Large"
-            aria-describedby="inputGroup-sizing-large"
+            placeholder="Search by Location or Coding Language"
           />
         </InputGroup>
       </Form>

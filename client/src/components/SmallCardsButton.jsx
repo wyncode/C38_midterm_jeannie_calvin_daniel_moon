@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-const SmallCardsButton = ({apiData}) => {
+const SmallCardsButton = ({ apiData }) => {
   // const [apiData, setApiData] = useState({});
   // let { id } = useParams();
   // useEffect(() => {
@@ -20,6 +20,7 @@ const SmallCardsButton = ({apiData}) => {
     <div id="small-card-button">
       <div>
         <Card
+          id="cardsshadow"
           style={{
             width: '18rem'
           }}
@@ -28,7 +29,7 @@ const SmallCardsButton = ({apiData}) => {
             <Card.Title>{apiData?.title}</Card.Title>
             <Card.Subtitle>{apiData?.company}</Card.Subtitle>
             <Card.Text>{apiData?.location}</Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button id="jobsearchbuttons">Go somewhere</Button>
           </Card.Body>
         </Card>
       </div>

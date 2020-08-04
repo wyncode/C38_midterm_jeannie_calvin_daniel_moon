@@ -4,11 +4,12 @@ import HomeCards from '../components/HomeCards';
 import HomePgJumbo from '../components/HomePgJumbo';
 
 function Home() {
-  return(
+  return (
     <div>
-    <HomeCarousel />
-    <HomeCards />
-    <HomePgJumbo />
+      <HomeCarousel />
+      <HomeCards />
+      <HomePgJumbo />
     </div>
-  )};
+  );
+}
 export default Home;

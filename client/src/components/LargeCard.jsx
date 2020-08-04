@@ -1,27 +1,24 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import testImage from '../assets/images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg';
+import video from '../assets/images/video.mp4';
 const LargeCard = () => {
   return (
     <div id="large-card">
       <Card className="bg-dark text-white">
         <Card.Img
+          id="searchimage"
           style={{
             backgroundColor: 'lightgray'
           }}
           src={testImage}
           alt="Card image"
         />
+
         <Card.ImgOverlay>
-          <Card.Title style={{ fontSize: 75, color: 'white' }}>
-            Hundres of Jobs
-          </Card.Title>
-          <Card.Title style={{ fontSize: 70, color: 'white' }}>
-            A Click Away
-          </Card.Title>
-          <Card.Text style={{ fontSize: 30, color: 'white' }}>
-            Search for jobs near you.
-          </Card.Text>
+          <Card.Title id="searchmaintext">Hundreds of Jobs</Card.Title>
+          <Card.Title id="searchmaintext2">A Click Away</Card.Title>
+          <Card.Text id="searchmaintext3">Search for jobs near you.</Card.Text>
         </Card.ImgOverlay>
       </Card>
     </div>

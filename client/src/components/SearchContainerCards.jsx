@@ -8,7 +8,7 @@ const SearchContainerCards = ({ title, location, company, result }) => {
   };
   return (
     <div>
-      <Card style={{ width: '18rem' }}>
+      <Card>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{location}</Card.Subtitle>
@@ -21,4 +21,6 @@ const SearchContainerCards = ({ title, location, company, result }) => {
     </div>
   );
 };
+
 export default SearchContainerCards;
+

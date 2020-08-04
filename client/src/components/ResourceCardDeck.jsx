@@ -1,11 +1,14 @@
 import React from 'react';
 import { CardDeck, Card, Button } from 'react-bootstrap';
+import codecademy from '../assets/images/Codecademy1.jpg';
+import skillshare from '../assets/images/carddeck.3.jpg';
+import wyncode from '../assets/images/Wayncode-image.jpg';
 
 const ResourceCardDeck = () => {
   return (
     <CardDeck className="carddeck">
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card id="resourcecardshadow">
+        <Card.Img variant="top" src={codecademy} />
         <Card.Body>
           <Card.Title>Learn from Home</Card.Title>
           <Card.Text>
@@ -13,11 +16,17 @@ const ResourceCardDeck = () => {
             Our App. Enroll Today! It's Never Too Late to Learn a New Skill!
             Learn to Code and Join Our 45+ Million Users.
           </Card.Text>
-          <Button variant="primary">Go to CodeAcdemy</Button>
+          <Button
+            id="jobsearchbuttons"
+            href="https://www.codecademy.com/"
+            target="_blank"
+          >
+            Go to CodeAcdemy
+          </Button>
         </Card.Body>
       </Card>
-      <Card>
-        <Card.Img variant="top" src= "holder.js/100px160" />
+      <Card id="resourcecardshadow">
+        <Card.Img variant="top" src={wyncode} />
         <Card.Body>
           <Card.Title>Becoming A Developer</Card.Title>
           <Card.Text>
@@ -25,11 +34,17 @@ const ResourceCardDeck = () => {
             graduated from our South Florida campus.Over 400 companies have
             hired developers and product designers from Wyncode.
           </Card.Text>
-          <Button variant="primary">Go to WynCode</Button>
+          <Button
+            id="jobsearchbuttons"
+            href="https://wyncode.co/"
+            target="_blank"
+          >
+            Go to WynCode
+          </Button>
         </Card.Body>
       </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card id="resourcecardshadow">
+        <Card.Img variant="top" src={skillshare} />
         <Card.Body>
           <Card.Title>Skill Share </Card.Title>
           <Card.Text>
@@ -37,7 +52,13 @@ const ResourceCardDeck = () => {
             learn from educational videos. The courses, which are not
             accredited, are available through subscription.
           </Card.Text>
-          <Button variant="primary">Go to SkillShare</Button>
+          <Button
+            id="jobsearchbuttons"
+            href="https://www.skillshare.com/"
+            target="_blank"
+          >
+            Go to SkillShare
+          </Button>
         </Card.Body>
       </Card>
     </CardDeck>
