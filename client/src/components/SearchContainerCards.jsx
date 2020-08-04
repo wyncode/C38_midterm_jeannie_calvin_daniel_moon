@@ -21,4 +21,6 @@ const SearchContainerCards = ({ title, location, company, result }) => {
     </div>
   );
 };
+
 export default SearchContainerCards;
+
