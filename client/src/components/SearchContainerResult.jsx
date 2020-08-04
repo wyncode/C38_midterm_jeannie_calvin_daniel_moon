@@ -18,13 +18,10 @@ const SearchContainerResult = ({ info }) => {
         <div>
           <Jumbotron id="searchJumbo">
             <h1>Want to Learn More About a company?</h1>
-            <p>
-              Click on a card to read an in depth description about the
-              company/position
-            </p>
-            <p>
-              <Button variant="primary">Learn more</Button>
-            </p>
+            <h5>
+              Search above and click more info on a job result to load a full
+              description here.
+            </h5>
           </Jumbotron>
         </div>
       )}

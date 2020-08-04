@@ -5,15 +5,14 @@ import video from '../assets/images/video.mp4';
 
 function HomePgJumbo() {
   return (
-    <Jumbotron className="homejumbo">
+    <Jumbotron id="homejumbo">
       <Container className="hometext">
-        <h1> LEARN TO CODE</h1>
+        <h1> Want To Learn How To Code?</h1>
+        <p>Click below to find some of the best resources to learn coding.</p>
         <p>
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
-        <p>
-          <Button href="/resources">Resources</Button>
+          <Button id="homebutton" href="/resources">
+            Resources
+          </Button>
         </p>
       </Container>
     </Jumbotron>
