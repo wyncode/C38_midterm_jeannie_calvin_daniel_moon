@@ -1,21 +1,34 @@
 import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
-
-const SearchContainerResult = () => {
+const SearchContainerResult = ({ info }) => {
   return (
-    <div>
-      <Jumbotron>
-        <h1>Hello, world!</h1>
-        <p>
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-        <p>
-          <Button variant="primary">Learn more</Button>
-        </p>
-      </Jumbotron>
-    </div>
+    <>
+      {info ? (
+        <div>
+          <Jumbotron>
+            <h1>{info.company}</h1>
+            <p>{info.title}</p>
+            <p>{info.description.replace(/<\/?[^>]+>/gi, '')}</p>
+            <p>
+              <Button variant="primary">Learn more</Button>
+            </p>
+          </Jumbotron>
+        </div>
+      ) : (
+        <div>
+          <Jumbotron>
+            <h1>Want to Learn More About a company?</h1>
+            <p>
+              Click on a card to read an in depth description about the
+              company/position
+            </p>
+            <p>
+              <Button variant="primary">Learn more</Button>
+            </p>
+          </Jumbotron>
+        </div>
+      )}
+    </>
   );
 };
-
 export default SearchContainerResult;
