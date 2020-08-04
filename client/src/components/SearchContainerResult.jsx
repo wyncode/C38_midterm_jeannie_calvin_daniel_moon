@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 const SearchContainerResult = ({ info }) => {
@@ -34,4 +35,5 @@ const SearchContainerResult = ({ info }) => {
 };
 
 export default SearchContainerResult;
+
 
