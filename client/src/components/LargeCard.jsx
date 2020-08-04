@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import testImage from '../assets/images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg';
+import video from '../assets/images/video.mp4';
 const LargeCard = () => {
   return (
     <div id="large-card">
@@ -13,6 +14,7 @@ const LargeCard = () => {
           src={testImage}
           alt="Card image"
         />
+
         <Card.ImgOverlay>
           <Card.Title id="searchmaintext">Hundreds of Jobs</Card.Title>
           <Card.Title id="searchmaintext2">A Click Away</Card.Title>

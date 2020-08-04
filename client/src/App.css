@@ -37,7 +37,7 @@ body {
   width: 100%;
   height: 20%;
   border: none;
-  box-shadow: 3px 3px 3px #fca311;
+  box-shadow: 3px 3px 3px #06caca;
 }
 #searchimage {
   height: 45rem;
@@ -61,16 +61,16 @@ body {
   margin-bottom: 6rem;
 }
 #cardsshadow {
-  box-shadow: 4px 4px 4px #fca311;
+  box-shadow: 4px 4px 4px #06caca;
   background-color: #e5e5e5;
   color: #14213d;
 }
 #jobsearchbuttons {
-  background-color: #fca311;
+  background-color: #06caca;
   font-weight: bold;
   height: auto;
   color: #14213d;
-  border: #fca311;
+  border: #06caca;
 }
 
 #search-bar {
@@ -88,7 +88,7 @@ body {
 }
 
 #homepagecards {
-  box-shadow: 5px 5px 5px #fca311;
+  box-shadow: 5px 5px 5px #06caca;
 }
 .homejumbo {
   display: flex;
@@ -144,10 +144,10 @@ body {
 }
 
 #search-left {
-  width: 60%;
-  height: 19rem;
+  width: 30%;
+  height: 25rem;
   overflow: auto;
-  background-color: #fca311;
+  margin-bottom: 5rem;
 }
 
 #searchResultsCards {
@@ -163,6 +163,8 @@ body {
 
 #search-right {
   width: 50%;
+  height: 25rem;
+  overflow: auto;
 }
 
 #search-page-card-title {
@@ -172,6 +174,8 @@ body {
   text-shadow: 7px 7px 7px black;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .footer {
@@ -185,7 +189,17 @@ body {
 }
 
 #resourcecardshadow {
-  box-shadow: 5px 5px 5px #fca311;
+  box-shadow: 5px 5px 5px #06caca;
+}
+
+#video {
+  object-fit: fill;
+}
+
+#searchJumbo {
+  height: 25rem;
+  background-color: white;
+  color: #14213d;
 }
 
 /* END DEMO */

@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import { Card } from 'react-bootstrap';
-
-const SearchContainerCards = ({ title, location, company, url }) => {
+import { CardContext } from '../context/CardContext';
+const SearchContainerCards = ({ title, location, company, result }) => {
+  const { setInfo } = useContext(CardContext);
+  const handleClick = () => {
+    setInfo(result);
+  };
   return (
     <div>
-      <Card id="searchResultsCards">
+      <Card>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{location}</Card.Subtitle>
           <Card.Text>{company}</Card.Text>
-          <Card.Link href={url} target="_blank">
+          <Card.Link onClick={handleClick} style={{ cursor: 'pointer' }}>
             More Info
           </Card.Link>
         </Card.Body>
@@ -17,5 +21,4 @@ const SearchContainerCards = ({ title, location, company, url }) => {
     </div>
   );
 };
-
 export default SearchContainerCards;
