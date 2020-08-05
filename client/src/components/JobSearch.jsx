@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import LargeCard from './LargeCard';
-// import SearchBar from "./SearchBar"
 import SmallCardsButton from './SmallCardsButton';
 import SearchBar from './SearchBar';
 import SearchContainers from './SearchContainers';
@@ -25,7 +24,7 @@ const JobSearch = () => {
   }, []);
   return (
     <div>
-      <LargeCard />
+          <LargeCard />
       <SearchBar
         setResults={setResults}
         inputSearch={inputSearch}

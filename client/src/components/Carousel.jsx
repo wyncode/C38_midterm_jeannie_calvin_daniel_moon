@@ -4,6 +4,7 @@ import firstImage from '../assets/images/christina-wocintechchat-com-glRqyWJgUeY
 import secondImage from '../assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg';
 import thirdImage from '../assets/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg';
 import video from '../assets/images/video.mp4';
+
 function HomeCarousel() {
   return (
     <div>
