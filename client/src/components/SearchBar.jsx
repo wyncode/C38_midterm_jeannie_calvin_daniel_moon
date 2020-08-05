@@ -15,6 +15,7 @@ const SearchBar = ({ inputSearch, setInputSearch, setResults }) => {
       setInfo(null);
     });
   };
+  
   return (
     <div id="search-bar">
       <Form onSubmit={handleSubmit}>

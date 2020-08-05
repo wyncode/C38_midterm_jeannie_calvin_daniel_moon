@@ -11,7 +11,7 @@ const SearchContainerResult = ({ info }) => {
             <p>{info.title}</p>
             <p>{info.description.replace(/<\/?[^>]+>/gi, '')}</p>
             <p>
-              <Button variant="primary">Learn more</Button>
+              <Button id="button" variant="outline-primary">Learn more</Button>
             </p>
           </Jumbotron>
         </div>
@@ -25,7 +25,7 @@ const SearchContainerResult = ({ info }) => {
               company/position
             </p>
             <p>
-              <Button variant="primary">Learn more</Button>
+              <Button id="button" variant="outline-primary">Learn more</Button>
             </p>
           </Jumbotron>
         </div>
