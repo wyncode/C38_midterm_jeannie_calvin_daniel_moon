@@ -3,7 +3,6 @@ import { CardDeck, Card, Button } from 'react-bootstrap';
 import codecademy from '../assets/images/Codecademy1.jpg';
 import skillshare from '../assets/images/carddeck.3.jpg';
 import wyncode from '../assets/images/Wayncode-image.jpg';
-
 const ResourceCardDeck = () => {
   return (
     <CardDeck className="carddeck">
@@ -32,7 +31,7 @@ const ResourceCardDeck = () => {
           <Card.Text>
             Over 800 web developers, UX/UI designers & digital marketers have
             graduated from our South Florida campus.Over 400 companies have
-            hired developers and product designers from Wyncode.
+            hired developers from Wyncode.
           </Card.Text>
           <Button
             id="jobsearchbuttons"
@@ -64,5 +63,4 @@ const ResourceCardDeck = () => {
     </CardDeck>
   );
 };
-
 export default ResourceCardDeck;
