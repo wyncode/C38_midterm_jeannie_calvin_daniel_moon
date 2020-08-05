@@ -7,7 +7,7 @@ function ResourceImage(props) {
       <Container>
         <h1>Developers, Never Stop Learning</h1>
         <p>
-          Every developer wil want to live in this world ...and it's our job to
+          Every developer will want to live in this world ...and it's our job to
           build it.
         </p>
       </Container>

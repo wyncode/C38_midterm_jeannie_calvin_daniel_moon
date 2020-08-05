@@ -13,7 +13,7 @@ const SearchContainerCards = ({ title, location, company, result }) => {
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{location}</Card.Subtitle>
           <Card.Text>{company}</Card.Text>
-          <Card.Link onClick={handleClick} style={{ cursor: 'pointer' }}>
+          <Card.Link id="button" variant="outline-primary" onClick={handleClick} style={{ cursor: 'pointer' }}>
             More Info
           </Card.Link>
         </Card.Body>

@@ -3,6 +3,8 @@ import { CardDeck, Card } from 'react-bootstrap';
 
 const HomeCards = () => {
   return (
+    <div className="container">
+       <h1 className="hometitletext">TOP LANGUAGES</h1>
     <div id="homepgcards">
       <CardDeck>
         <Card>
@@ -44,6 +46,7 @@ const HomeCards = () => {
           </Card.Body>
         </Card>
       </CardDeck>
+    </div>
     </div>
   );
 };

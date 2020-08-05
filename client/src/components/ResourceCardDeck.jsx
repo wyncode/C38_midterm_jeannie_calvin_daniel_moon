@@ -16,8 +16,8 @@ const ResourceCardDeck = () => {
             Our App. Enroll Today! It's Never Too Late to Learn a New Skill!
             Learn to Code and Join Our 45+ Million Users.
           </Card.Text>
-          <Button
-            id="jobsearchbuttons"
+          <Button 
+            id="button" variant="outline-primary" 
             href="https://www.codecademy.com/"
             target="_blank"
           >
@@ -34,8 +34,8 @@ const ResourceCardDeck = () => {
             graduated from our South Florida campus.Over 400 companies have
             hired developers and product designers from Wyncode.
           </Card.Text>
-          <Button
-            id="jobsearchbuttons"
+          <Button 
+            id="button" variant="outline-primary" 
             href="https://wyncode.co/"
             target="_blank"
           >
@@ -53,7 +53,7 @@ const ResourceCardDeck = () => {
             accredited, are available through subscription.
           </Card.Text>
           <Button
-            id="jobsearchbuttons"
+            id="button" variant="outline-primary" 
             href="https://www.skillshare.com/"
             target="_blank"
           >

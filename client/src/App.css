@@ -10,27 +10,32 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* navbar */
 #navBar {
   height: 3rem;
   display: flex;
   background-color: #e5e5e5;
   padding-top: 10px;
 }
-#home {
-  margin-left: 5rem;
-  color: white;
+
+.navbarlogo {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  background-color: #e5e5e5;
+  height: 3rem;
+}
+
+#navtext {
+  color: #14213d;
+  font-weight: bold;
+  margin-right: 30px;
 }
 
 #search {
   margin-left: 2rem;
   margin-right: 2rem;
   color: white;
-}
-#navtext {
-  color: #14213d;
-  font-weight: bold;
-  margin-right: 30px;
 }
 
 #large-card {
@@ -39,17 +44,21 @@ body {
   border: none;
   box-shadow: 3px 3px 3px #06caca;
 }
+
 #searchimage {
   height: 45rem;
 }
+
 #searchmaintext {
   font-size: 4rem;
   text-shadow: 5px 5px 5px black;
 }
+
 #searchmaintext2 {
   font-size: 3.5rem;
   text-shadow: 5px 5px 5px black;
 }
+
 #searchmaintext3 {
   font-size: 1rem;
   text-shadow: 5px 5px 5px black;
@@ -60,24 +69,31 @@ body {
   justify-content: space-evenly;
   margin-bottom: 6rem;
 }
+
 #cardsshadow {
   box-shadow: 4px 4px 4px #06caca;
   background-color: #e5e5e5;
   color: #14213d;
 }
+/* 
 #jobsearchbuttons {
   background-color: #06caca;
   font-weight: bold;
   height: auto;
   color: #14213d;
   border: #06caca;
-}
+} */
 
 #search-bar {
   width: 40%;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+/* home page css */
+#home {
+  margin-left: 5rem;
+  color: white;
 }
 
 #homepgcards {
@@ -90,6 +106,7 @@ body {
 #homepagecards {
   box-shadow: 5px 5px 5px #06caca;
 }
+
 .homejumbo {
   display: flex;
   background-image: url();
@@ -109,7 +126,7 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-.hometext {
+.homejumbotext {
   position: relative;
   font-size: 1rem;
   line-height: 0.9;
@@ -122,6 +139,15 @@ body {
   justify-content: space-evenly;
 }
 
+.hometitletext {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  color: #e5e5e5;
+  text-shadow: 7px 7px 7px black;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+/* Resource page jumbo */
 .jumbo {
   display: flex;
   margin-top: 4rem;
@@ -183,11 +209,12 @@ body {
   display: flex;
   justify-content: center;
 }
+
 #footertext {
   color: #e5e5e5;
   font-weight: bold;
 }
-
+    
 #resourcecardshadow {
   box-shadow: 5px 5px 5px #06caca;
 }
@@ -201,7 +228,33 @@ body {
   background-color: white;
   color: #14213d;
 }
+/* button hover style */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+  
+#button {
+    position: relative;
+    display: inline-block;
+    color: #14213d;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;  
+}
 
-/* END DEMO */
+#button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
 
-/* button */
+#button span{
+    position: absolute;
+    display: block;
+}
