@@ -4,15 +4,16 @@ import SmallCardsButton from './SmallCardsButton';
 import SearchBar from './SearchBar';
 import SearchContainers from './SearchContainers';
 import axios from 'axios';
-
 const JobSearch = () => {
   const [apiData, setApiData] = useState({});
   const [inputSearch, setInputSearch] = useState('');
   const [results, setResults] = useState([]);
-
   useEffect(() => {
     console.log('I entered useEffect. Did it work?');
     axios.get(`/api/jobs`).then((response) => {
+      console.log('start response');
+      console.log(response);
+      console.log('end response');
       setApiData({
         jobOne: response.data[1],
         jobTwo: response.data[2],
@@ -21,7 +22,6 @@ const JobSearch = () => {
       });
     });
   }, []);
-
   return (
     <div>
           <LargeCard />
@@ -41,5 +41,4 @@ const JobSearch = () => {
     </div>
   );
 };
-
 export default JobSearch;

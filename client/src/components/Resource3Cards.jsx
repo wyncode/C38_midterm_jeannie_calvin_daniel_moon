@@ -1,14 +1,13 @@
 import React from 'react';
 import { CardDeck, Card } from 'react-bootstrap';
-import cards1 from '../assets/images/cards1.jpg';
-import cards2 from '../assets/images/cards2.jpg';
+import card31 from '../assets/images/card31.jpg';
 import card3T from '../assets/images/card3T.jpg';
-
+import WBE_Tech from '../assets/images/WBE_Tech.jpg';
 function Resource3Cards(props) {
   return (
     <CardDeck className="cards">
       <Card>
-        <Card.Img variant="top" src={cards1} />
+        <Card.Img variant="top" src={WBE_Tech} />
         <Card.Body>
           <Card.Title>U.S Employment Report</Card.Title>
           <Card.Text>
@@ -20,7 +19,7 @@ function Resource3Cards(props) {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src={cards2} />
+        <Card.Img variant="top" src={card31} />
         <Card.Body>
           <Card.Title>Job Market Report</Card.Title>
           <Card.Text>

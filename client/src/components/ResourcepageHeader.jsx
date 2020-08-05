@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import Rheader1200x300 from '../assets/images/Rheader1200x300.jpg';
+import RhImage from '../assets/images/RhImage.jpg';
 
 function ResourcepageHeader() {
-  return <Image className="resouecebg" src={Rheader1200x300} fluid />;
+  return <Image className="resouecebg" src={RhImage} fluid />;
 }
 
 export default ResourcepageHeader;
