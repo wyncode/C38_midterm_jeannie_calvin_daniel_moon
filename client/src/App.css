@@ -2,6 +2,39 @@
 * {
   font-family: 'Noto Sans TC', sans-serif;
 }
+
+#carousel {
+  height: 41rem;
+  background-image: url('../src/assets/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px #06caca;
+  color: #e5e5e5;
+}
+#carouselT {
+  font-size: 5rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#carouselST {
+  font-size: 2rem;
+  color: white;
+
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#homecarouselbutton {
+  background-color: #06caca;
+  font-weight: bold;
+  height: auto;
+  color: #14213d;
+  border: #06caca;
+}
+#homebutton {
+  background-color: #06caca;
+  font-weight: bold;
+  height: auto;
+  color: #14213d;
+  border: #06caca;
+}
 body {
   width: 100%;
   height: 100%;
@@ -16,6 +49,7 @@ body {
   display: flex;
   background-color: #e5e5e5;
   padding-top: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .navbarlogo {
@@ -74,6 +108,7 @@ body {
   box-shadow: 4px 4px 4px #06caca;
   background-color: #e5e5e5;
   color: #14213d;
+  height: 14rem;
 }
 /* 
 #jobsearchbuttons {
@@ -106,6 +141,7 @@ body {
 #homepagecards {
   box-shadow: 5px 5px 5px #06caca;
 }
+<<<<<<< HEAD
 
 .homejumbo {
   display: flex;
@@ -124,6 +160,12 @@ body {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.25);
+=======
+#homejumbo {
+  color: #14213d;
+  background-color: white;
+  text-shadow: 5px 5px 5px gray;
+>>>>>>> master
 }
 
 .homejumbotext {

@@ -5,22 +5,22 @@ function Footer() {
   return (
     <Nav id="footer" defaultActiveKey="/home" as="ul" className="footer">
       <Nav.Item as="li" id="button">
-        <Nav.Link id="footertext" href="/home">
+        <Nav.Link id="footertext" href="https://github.com/DanRie19">
           Daniel Riera
         </Nav.Link>
       </Nav.Item>
       <Nav.Item as="li" id="button">
-        <Nav.Link id="footertext" eventKey="link-1">
+        <Nav.Link id="footertext" href="https://github.com/DevloperM">
           Moon Guo
         </Nav.Link>
       </Nav.Item>
       <Nav.Item as="li" id="button">
-        <Nav.Link id="footertext" eventKey="link-2">
+        <Nav.Link id="footertext" href="https://github.com/Jeanniet89">
           Jeannie Torres
         </Nav.Link>
       </Nav.Item>
       <Nav.Item as="li" id="button">
-        <Nav.Link id="footertext" eventKey="link-2">
+        <Nav.Link id="footertext" href="https://github.com/Cal9233">
           Calvin Malagon
         </Nav.Link>
       </Nav.Item>
