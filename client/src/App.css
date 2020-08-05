@@ -141,7 +141,6 @@ body {
 #homepagecards {
   box-shadow: 5px 5px 5px #06caca;
 }
-<<<<<<< HEAD
 
 .homejumbo {
   display: flex;
@@ -150,6 +149,9 @@ body {
   -webkit-background-size: 100% 100%;
   color: rgba(223, 223, 223, 0.993);
   position: relative;
+  color: #14213d;
+  background-color: white;
+  text-shadow: 5px 5px 5px gray;
 }
 
 .homejumbo::before {
@@ -160,12 +162,6 @@ body {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.25);
-=======
-#homejumbo {
-  color: #14213d;
-  background-color: white;
-  text-shadow: 5px 5px 5px gray;
->>>>>>> master
 }
 
 .homejumbotext {
@@ -256,7 +252,7 @@ body {
   color: #e5e5e5;
   font-weight: bold;
 }
-    
+
 #resourcecardshadow {
   box-shadow: 5px 5px 5px #06caca;
 }
@@ -272,31 +268,29 @@ body {
 }
 /* button hover style */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-  
+
 #button {
-    position: relative;
-    display: inline-block;
-    color: #14213d;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 1px;
-    overflow: hidden;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;  
+  position: relative;
+  display: inline-block;
+  color: #14213d;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
-#button:hover{
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+#button:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
-#button span{
-    position: absolute;
-    display: block;
+#button span {
+  position: absolute;
+  display: block;
 }
