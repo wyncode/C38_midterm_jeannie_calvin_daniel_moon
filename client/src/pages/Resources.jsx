@@ -3,7 +3,6 @@ import ResourceCardDeck from '../components/ResourceCardDeck';
 import Resource3Cards from '../components/Resource3Cards';
 import ResourceImage from '../components/ResourceImage';
 import ResourcepageHeader from '../components/ResourcepageHeader';
-import Footer from '../components/Footer';
 import video from '../assets/images/video.mp4';
 
 function Resources() {

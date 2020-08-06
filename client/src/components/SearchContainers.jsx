@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import SearchContainerCards from './SearchContainerCards';
 import SearchContainerResult from './SearchContainerResult';
 import { CardContext } from '../context/CardContext';
+
 const SearchContainers = ({ results }) => {
   const { info } = useContext(CardContext);
   return (

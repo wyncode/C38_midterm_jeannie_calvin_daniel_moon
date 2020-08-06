@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import testImage from '../assets/images/anastasia-zhenina-E4XARZNDjzI-unsplash.jpg';
+
 const LargeCard = () => {
   return (
     <div id="large-card">

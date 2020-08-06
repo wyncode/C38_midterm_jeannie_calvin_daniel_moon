@@ -3,7 +3,8 @@ import { CardDeck, Card } from 'react-bootstrap';
 import card31 from '../assets/images/card31.jpg';
 import card3T from '../assets/images/card3T.jpg';
 import WBE_Tech from '../assets/images/WBE_Tech.jpg';
-function Resource3Cards(props) {
+
+function Resource3Cards() {
   return (
     <CardDeck className="cards">
       <Card>

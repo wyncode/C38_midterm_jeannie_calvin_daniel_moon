@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import { useParams } from 'react-router-dom';
+
 const SmallCardsButton = ({ apiData }) => {
   console.log(apiData);
   function handleClick() {
