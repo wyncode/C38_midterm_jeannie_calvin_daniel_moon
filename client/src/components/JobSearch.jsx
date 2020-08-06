@@ -12,7 +12,6 @@ const JobSearch = () => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    console.log('I entered useEffect. Did it work?');
     axios.get(`/api/jobs`).then((response) => {
       console.log('start response');
       console.log(response);
