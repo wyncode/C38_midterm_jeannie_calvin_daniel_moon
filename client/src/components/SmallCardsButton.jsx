@@ -13,14 +13,15 @@ const SmallCardsButton = ({ apiData }) => {
         <Card
           id="cardsshadow"
           style={{
-            width: '18rem'
+            width: '18rem',
+            backgroundColor: 'white'
           }}
         >
           <Card.Body>
             <Card.Title>{apiData?.title}</Card.Title>
             <Card.Subtitle>{apiData?.company}</Card.Subtitle>
             <Card.Text>{apiData?.location}</Card.Text>
-            <Button id="jobsearchbuttons" onClick={handleClick}>
+            <Button id="button" variant="outline-primary" onClick={handleClick}>
               Read More
             </Button>
           </Card.Body>

@@ -3,6 +3,7 @@ import LargeCard from './LargeCard';
 import SmallCardsButton from './SmallCardsButton';
 import SearchBar from './SearchBar';
 import SearchContainers from './SearchContainers';
+import video from '../assets/images/video.mp4';
 import axios from 'axios';
 const JobSearch = () => {
   const [apiData, setApiData] = useState({});
@@ -24,7 +25,21 @@ const JobSearch = () => {
   }, []);
   return (
     <div>
-          <LargeCard />
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: 'fixed',
+          width: '100%',
+          height: 'fill',
+          objectFit: 'fill',
+          zIndex: '-2'
+        }}
+      >
+        <source src={video} type="video/mp4" />
+      </video>
+      <LargeCard />
       <SearchBar
         setResults={setResults}
         inputSearch={inputSearch}

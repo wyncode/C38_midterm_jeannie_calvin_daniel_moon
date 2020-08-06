@@ -5,7 +5,8 @@
 
 #carousel {
   height: 41rem;
-  background-image: url('../src/assets/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg');
+  background-image: url('../src/assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 3px 3px 3px #06caca;
@@ -13,13 +14,13 @@
 }
 #carouselT {
   font-size: 5rem;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5);
 }
 #carouselST {
   font-size: 2rem;
   color: white;
 
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5);
 }
 #homecarouselbutton {
   background-color: #06caca;
@@ -39,7 +40,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  background-color: #14213d;
+  background-color: #02050a;
   margin: 0;
   padding: 0;
 }
@@ -47,7 +48,7 @@ body {
 #navBar {
   height: 3rem;
   display: flex;
-  background-color: #e5e5e5;
+  background-color: white;
   padding-top: 10px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
@@ -86,16 +87,22 @@ body {
 #searchmaintext {
   font-size: 4rem;
   text-shadow: 5px 5px 5px black;
+  color: white;
+  margin-top: 4rem;
 }
 
 #searchmaintext2 {
   font-size: 3.5rem;
   text-shadow: 5px 5px 5px black;
+  color: white;
+  margin-top: 1rem;
 }
 
 #searchmaintext3 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-shadow: 5px 5px 5px black;
+  color: white;
+  margin-top: 1rem;
 }
 
 #cards {
@@ -142,26 +149,19 @@ body {
   box-shadow: 5px 5px 5px #06caca;
 }
 
+#homeJumbo {
+}
+
 .homejumbo {
   display: flex;
-  background-image: url();
   background-size: cover;
-  -webkit-background-size: 100% 100%;
-  color: rgba(223, 223, 223, 0.993);
   position: relative;
   color: #14213d;
-  background-color: white;
   text-shadow: 5px 5px 5px gray;
 }
 
-.homejumbo::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(0, 0, 0, 0.25);
+a:link {
+  text-decoration: none;
 }
 
 .homejumbotext {
@@ -193,7 +193,7 @@ body {
   background-image: url(https://unsplash.com/photos/8OyKWQgBsKQ);
   background-size: cover;
   -webkit-background-size: 100% 100%;
-  color: whitesmoke;
+  color: white;
   position: relative;
 }
 
@@ -224,7 +224,10 @@ body {
   justify-content: space-evenly;
   margin-bottom: 3rem;
 }
-
+#searchJumbo {
+  color: #14213d;
+  text-shadow: rgba(0, 0, 0, 0.3);
+}
 #search-right {
   width: 50%;
   height: 25rem;
@@ -237,7 +240,6 @@ body {
   color: #e5e5e5;
   text-shadow: 7px 7px 7px black;
   border-top: 3px solid white;
-  border-bottom: 3px solid white;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -259,6 +261,7 @@ body {
 
 #video {
   object-fit: fill;
+  z-index: -500000;
 }
 
 #searchJumbo {
@@ -272,7 +275,7 @@ body {
 #button {
   position: relative;
   display: inline-block;
-  color: #14213d;
+  color: #03e9f4;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;

@@ -1,9 +1,5 @@
 import React from 'react';
 import { Jumbotron, Container, Button } from 'react-bootstrap';
-import firstImage from '../assets/images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg';
-import secondImage from '../assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg';
-import thirdImage from '../assets/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg';
-import video from '../assets/images/video.mp4';
 
 function HomeCarousel() {
   return (
@@ -13,8 +9,8 @@ function HomeCarousel() {
           <h1 id="carouselT"> Got Tech Jobs?</h1>
           <p id="carouselST">Follow the link below to search.</p>
           <p>
-            <Button id="homecarouselbutton" href="/resources">
-              Resources
+            <Button id="button" variant="outline-primary" href="/searchforjobs">
+              Job Search
             </Button>
           </p>
         </Container>
