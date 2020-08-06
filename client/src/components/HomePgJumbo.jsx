@@ -4,9 +4,13 @@ import Button from 'react-bootstrap/Button';
 
 function HomePgJumbo() {
   return (
-    <Jumbotron fluid className="homejumbo">
+    <Jumbotron
+      id="homeJumbo"
+      className="homejumbo"
+      style={{ backgroundColor: 'white' }}
+    >
       <Container className="homejumbotext">
-        <div className="container">
+        <div>
           <h1> Want To Learn How To Code?</h1>
           <p>Click below to find some of the best resources to learn coding.</p>
           <p>
