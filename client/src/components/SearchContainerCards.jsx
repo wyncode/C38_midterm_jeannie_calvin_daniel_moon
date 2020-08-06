@@ -1,6 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { Card } from 'react-bootstrap';
 import { CardContext } from '../context/CardContext';
+
 const SearchContainerCards = ({ title, location, company, result }) => {
   const { setInfo } = useContext(CardContext);
   const handleClick = () => {
@@ -13,7 +14,12 @@ const SearchContainerCards = ({ title, location, company, result }) => {
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{location}</Card.Subtitle>
           <Card.Text>{company}</Card.Text>
-          <Card.Link id="button" variant="outline-primary" onClick={handleClick} style={{ cursor: 'pointer' }}>
+          <Card.Link
+            id="button"
+            variant="outline-primary"
+            onClick={handleClick}
+            style={{ cursor: 'pointer' }}
+          >
             More Info
           </Card.Link>
         </Card.Body>
@@ -23,4 +29,3 @@ const SearchContainerCards = ({ title, location, company, result }) => {
 };
 
 export default SearchContainerCards;
-

@@ -1,18 +1,11 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo-via-logohub copy.png';
 
 const NavigationBar = () => {
   return (
     <div id="navBar">
-      <Nav className="justify-content-end" activeKey="/home">
-        <img
-          className="navlogo"
-          src={logo}
-          alt="logo.."
-          style={{ width: '150px' }}
-        />
+      <Nav className="justify-content-start" activeKey="/home">
         <div id="home">
           <Nav.Item id="button">
             <Link id="navtext" to="/">

@@ -5,12 +5,13 @@ import SearchBar from './SearchBar';
 import SearchContainers from './SearchContainers';
 import video from '../assets/images/video.mp4';
 import axios from 'axios';
+
 const JobSearch = () => {
   const [apiData, setApiData] = useState({});
   const [inputSearch, setInputSearch] = useState('');
   const [results, setResults] = useState([]);
+
   useEffect(() => {
-    console.log('I entered useEffect. Did it work?');
     axios.get(`/api/jobs`).then((response) => {
       console.log('start response');
       console.log(response);

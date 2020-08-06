@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import RhImage from '../assets/images/dhaval-parmar-dnPniNPUe4o-unsplash.jpg';
+
 function ResourcepageHeader() {
   return (
     <div id="large-card">

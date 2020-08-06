@@ -1,5 +1,6 @@
 import React from 'react';
-import { Jumbotron, Button } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
+
 const SearchContainerResult = ({ info }) => {
   return (
     <>

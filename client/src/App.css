@@ -48,6 +48,7 @@ body {
 #navBar {
   height: 3rem;
   display: flex;
+  justify-content: flex-end;
   background-color: white;
   padding-top: 10px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -117,14 +118,6 @@ body {
   color: #14213d;
   height: 14rem;
 }
-/* 
-#jobsearchbuttons {
-  background-color: #06caca;
-  font-weight: bold;
-  height: auto;
-  color: #14213d;
-  border: #06caca;
-} */
 
 #search-bar {
   width: 40%;
@@ -147,9 +140,6 @@ body {
 
 #homepagecards {
   box-shadow: 5px 5px 5px #06caca;
-}
-
-#homeJumbo {
 }
 
 .homejumbo {
@@ -261,7 +251,6 @@ a:link {
 
 #video {
   object-fit: fill;
-  z-index: -500000;
 }
 
 #searchJumbo {
